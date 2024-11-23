@@ -1,0 +1,119 @@
+.sidebar {
+  position: sticky;
+  left: 0;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex: 1.5;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+.sidebarWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Lista de elementos */
+.sidebarList {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebarListItem:hover {
+  background-color: #e0e0e0;
+}
+
+.sidebarIcon {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #333;
+}
+
+.sidebarListItemText {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Botón "Mostrar más" */
+.sidebarButton {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.sidebarButton:hover {
+  background-color: #005f73;
+}
+
+/* Línea de separación */
+.sidebarHr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Sección de regalos */
+.sidebar2parte {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidebarFriendList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo de cada amigo */
+.sidebarFriendListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebarFriendImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.sidebarFriendName {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Íconos de regalo */
+.sidebarIconGift {
+  font-size: 30px;
+  color: #ff6347;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebarIconGift:hover {
+  color: #e53946;
+}
